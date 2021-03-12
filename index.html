@@ -5,50 +5,53 @@
     <title>Weather Analysis</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge" /> -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
-      rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
       media="screen"
+      rel="stylesheet"
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
-  <nav class="navbar navbar">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button
-          type="button"
-          class="navbar-toggle"
-          data-toggle="collapse"
-          data-target="#myNavbar"
-        >
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="index.html">Latitude</a>
+  <nav class="navbar navbar-inverse"
+
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Latitude</a>
+
       </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="index.html">Landing Page</a></li>
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="index.html"
-              >Visualizations<span class="caret"></span
-            ></a>
-            <ul class="dropdown-menu">
-              <li><a href="2_Max_Temperature.html">Max Temperature</a></li>
-              <li><a href="3_Humidity.html">Humidity</a></li>
-              <li><a href="4_Cloudiness.html">Cloudiness</a></li>
-              <li><a href="5_Wind_Speed.html">Wind Speed</a></li>
-            </ul>
-          </li>
-          <li><a href="6_compare.html">Comparison</a></li>
-          <li><a href="7_Data.html">Data</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+      <ul class="nav navbar-nav navbar-right">
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Landing Page</a></li>
+            <li class="dropdown">
+              <a
+                class="dropdown-toggle"
+                data-toggle="dropdown"
+                href="index.html"
+                >Plots<span class="caret"></span
+              ></a>
+              <ul class="dropdown-menu">
+                <li><a href="2_Max_Temperature.html">Max Temperature</a></li>
+                <li><a href="3_Humidity.html">Humidity</a></li>
+                <li><a href="4_Cloudiness.html">Cloudiness</a></li>
+                <li><a href="5_Wind_Speed.html">Wind Speed</a></li>
+              </ul>
+            </li>
+            <li><a href="6_compare.html">Comparison</a></li>
+            <li><a href="7_Data.html">Data</a></li>
+          </ul>
+        </div>
+      </ul>
+  </div>
+</nav>
+
   <!-- Body-------------------------------------------------------------------- -->
   <body>
     <div class="container">
